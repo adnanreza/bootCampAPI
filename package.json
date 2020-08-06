@@ -1,0 +1,33 @@
+{
+  "name": "bootcampapi",
+  "version": "1.0.0",
+  "description": "Backend API for bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production && node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanreza/bootCampAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Adnan Reza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adnanreza/bootCampAPI/issues"
+  },
+  "homepage": "https://github.com/adnanreza/bootCampAPI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
